@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto ', sans-serif;
+  font-size: 14px;
+  color: #212121;
+  line-height: 1.4;
+  background-color: #F9F9F9;
+}
+
+input[type=text], input[type=password], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=number] {
+    width: 97%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.row {
+    padding: 10px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: #24435d;
+  font-weight: 600;
+}
+
+#page_container {
+    padding: 20px;
+    background: #eef0f9;
+    border-radius: 2px;
+    box-shadow: 0px 2px 24px #cdcfd2;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#login-message {
+    display: none;
+    color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-title {
+  font-size: 23px;
+  margin: 10px 0px;
+}
+
+a.btn-link {
+  border: 2px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 40px;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.shift-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.centre-button {
+  margin: 36px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* navbar */
+.navbar {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  background-color: #2196F3;
+}
+
+.heading-logo,
+.nav {
+  display: inline-block;
+  margin: 0;
+}
+
+/* nav links */
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.navbar a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #DDD;
+}
+
+/* if you want pull right nav links */
+.nav-right {
+  float: right;
+  line-height: 39px;
+}
+
+
+
+/* responsive */
+@media screen and (max-width: 677px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
