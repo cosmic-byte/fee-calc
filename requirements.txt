@@ -1,6 +1,6 @@
 freezegun==0.3.12
 coverage==5.0.1
-Django==3.0.3
+Django==3.1.9
 django-appconf==1.0.3
 django-axes==4.5.4
 django-cors-headers==3.2.1
